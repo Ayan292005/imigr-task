@@ -16,8 +16,11 @@ function Navbar() {
  <i class="fa-solid fa-phone" style={{backgroundColor:'#f6214b',color:"white",padding:"30px",fontSize:"20px",marginLeft:"10px"}}></i>
         </div>
       </div>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/immigration">immigration</NavLink>
+      <div className="navlinks cntr">
+      <NavLink to="/" style={{textDecoration:"none",fontSize:"20px",color:"black"}}>Home</NavLink>
+      <NavLink to="/immigration" style={{textDecoration:"none",fontSize:"20px",color:"black"}}>immigration</NavLink>
+      </div>
+
     </>
   )
 }

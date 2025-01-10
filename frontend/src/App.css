@@ -12,8 +12,20 @@
     width: 60%;
     flex-wrap: wrap;
 }
+
+.cntr{
+    margin: 0 auto;
+    width: 60%;
+}
 .nav-bar p{
     margin: 0;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .hero{
